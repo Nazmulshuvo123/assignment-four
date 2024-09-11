@@ -12,7 +12,7 @@ function calculateFinalScore(obj) {
         return false;
     }
     
-
+    
     if(typeof name !== 'string' || typeof testScore !== 'number' || typeof schoolGrade !== 'number' || isFFamily === true){
 
         return true;
