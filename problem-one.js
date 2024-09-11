@@ -1,7 +1,7 @@
 function calculateTax(income, expenses) {
    let difference = income - expenses;
 
- let tax = difference * 0.2;
+  let tax = difference * 0.2;
  
 
   if( income < 0 || expenses < 0 || income < expenses ){
